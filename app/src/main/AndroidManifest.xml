@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="e.josh.openday">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/wlvicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/wlvicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity
+            android:name=".NewMap"
+            android:label="Map"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Quiz1"
+            android:label="Question 1"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Quiz2"
+            android:label="Question 2"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Quiz3"
+            android:label="Question 3"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseOneWeb"
+            android:label="More Info"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseTwoWeb"
+            android:label="More Info"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FAQ_activity"
+            android:label="More Info"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseThreeWeb"
+            android:label="More Info"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseFourWeb"
+            android:label="More Info"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseFiveWeb"
+            android:label="More Info"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ProgramMain"
+            android:label="Daily Program"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MyEventsMain"
+            android:label="My Events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PicturesArduinoMain"
+            android:label="Arduino Gallery"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".VideoOpendeckMain"
+            android:label="Open Deck Video"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseOne"
+            android:label="Computer Science BSc(Hons)"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseTwo"
+            android:label="Cyber Security BSc(Hons)"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseThree"
+            android:label="Information Technology BSc(Hons)"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+        android:name=".CourseFour"
+        android:label="Games Development BSc(Hons)"
+            android:screenOrientation="portrait">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="e.josh.openday.MainActivity" />
+    </activity>
+        <activity
+            android:name=".TotalAtt"
+            android:label="Log Attendance"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseFive"
+            android:label="Data Science BSc(Hons)"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CourseSelection"
+            android:label="Course Selection"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FeedbackPage"
+            android:label="Feedback Page"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="e.josh.openday.MainActivity" />
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".Alarm"/>
+
+    </application>
+
+</manifest>

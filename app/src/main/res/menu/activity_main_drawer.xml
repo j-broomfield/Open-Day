@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_welcome"
+        android:title="Welcome / QR Scanner" />
+        <item
+            android:id="@+id/nav_program"
+            android:title="Program" />
+        <item
+            android:id="@+id/nav_events"
+            android:title="My Events" />
+        <item
+            android:id="@+id/nav_map"
+            android:title="Map And Facilities" />
+         <item
+            android:id="@+id/nav_course"
+            android:title="Course List" />
+         <item
+            android:id="@+id/nav_feedback"
+            android:title="Feedback Page" />
+        <item
+            android:id="@+id/nav_faq"
+            android:title="FAQ's" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:title="Quiz" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="App Settings" />
+
+</menu>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:text="FAQ"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="FAQ" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="7dp"
+        android:text="Will I receive a programme or other information before an open day?"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:text="Will I receive a programme or other information before an open day?" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="13dp"
+        android:text="No, you don't need it: you just have to refer to the programm section, and all the different events will be displayed with the place and the time"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:text="No, you don't need it: you just have to refer to the programm section, and all the different events will be displayed with the place and the time" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="6dp"
+        android:text="Can I bring family and friends ?"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:text="Can I bring family and friends ?" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:text="Yes; everyone is welcome to attend. However, please note that many talks limit access to the applicant and one guest only.  Where guests are not permitted, there are many other alternative activities listed in the programme."
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:text="Yes; everyone is welcome to attend. However, please note that many talks limit access to the applicant and one guest only.  Where guests are not permitted, there are many other alternative activities listed in the programme." />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="8dp"
+        android:text="Can I attend more than one subject talk?"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:text="Can I attend more than one subject talk?" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="11dp"
+        android:text="Yes. Many visitors will be interested in more than one subject and it is entirely up to you which talks you attend. Talks often take place more than once during the day so it is possible to do this. However, please check the programme beforehand to ensure you plan your day to allow this to happen."
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:text="Yes. Many visitors will be interested in more than one subject and it is entirely up to you which talks you attend. Talks often take place more than once during the day so it is possible to do this. However, please check the programme beforehand to ensure you plan your day to allow this to happen." />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="9dp"
+        android:text="Can we see the student accommodation?"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        tools:text="Can we see the student accommodation?" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="9dp"
+        android:text="Yes. Accommodation tours run throughout the day (9.00am - 3.15pm) and allow you to view a selection of accommodation sites at the Vale Village (Maple Bank, Chamberlain and Mason). Visitors can either use the walking map at the back of the programme to reach accommodation"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        tools:text="Yes. Accommodation tours run throughout the day (9.00am - 3.15pm) and allow you to view a selection of accommodation sites at the Vale Village (Maple Bank, Chamberlain and Mason). Visitors can either use the walking map at the back of the programme to reach accommodation" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="15dp"
+        android:text="What happns if I can’t attend an open day?"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:text="What happns if I can’t attend an open day?e" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="18dp"
+        android:text="If you are unable to attend an open day there are other opportunities to visit the University. We run campus tours most Tuesdays and Thursdays throughout the year and a place can be booked online."
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:text="If you are unable to attend an open day there are other opportunities to visit the University. We run campus tours most Tuesdays and Thursdays throughout the year and a place can be booked online." />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="9dp"
+        android:text="We hope you have found the information you need"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:text="We hope you have found the information you need" />
+</android.support.constraint.ConstraintLayout>
